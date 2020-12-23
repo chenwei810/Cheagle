@@ -10,6 +10,26 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script>
+  		window.fbAsyncInit = function() {
+    	FB.init({
+      	appId            : '385546522742053',
+      	autoLogAppEvents : true,
+      	xfbml            : true,
+      	version          : 'v2.11'
+    	});
+  		};
+
+  		(function(d,s,id){
+  			var js,fjs = d.getElementsByTagName(s)[0];
+  			if(d.getElementsById(id)){return;}
+  			js=d.createElement(s);
+  			js.id=id;
+  			js.src = "https://connect.facebook.net/en_US/sdk.js";
+  			fjs.parentNode.insertBefore(js,fjs);
+			}(document,'script','facebook-jssdk'));
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 	</head>
 	<body>
 
@@ -17,9 +37,9 @@
 			<header id="header">
 				<div class="inner">
 					<div class="content">
-						<h1>Radius</h1>
-						<h2>A fully responsive masonry-style<br />
-						portfolio template.</h2>
+						<h1>Cheagle</h1>
+						<h2>霹靂卡霹靂拉拉 波波莉娜貝貝魯多<br />
+						叫我Cheagle</h2>
 						<a href="#" class="button big alt"><span>Let's Go</span></a>
 					</div>
 					<a href="#" class="button hidden"><span>Let's Go</span></a>
@@ -90,14 +110,17 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="fb-customerchat"
+  			page_id="<102369538452622>"
+  			minimized="<true>">
+			</div>
 		<!-- Footer -->
 			<footer id="footer">
 				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
 				<div class="inner">
 					<div class="content">
-						<h3>Vestibulum hendrerit tortor id gravida</h3>
-						<p>In tempor porttitor nisl non elementum. Nulla ipsum ipsum, feugiat vitae vehicula vitae, imperdiet sed risus. Fusce sed dictum neque, id auctor felis. Praesent luctus sagittis viverra. Nulla erat nibh, fermentum quis enim ac, ultrices euismod augue. Proin ligula nibh, pretium at enim eget, tempor feugiat nulla.</p>
+						<h3>相關人員</h3>
+						<p>吳則諭     陳威     林宥呈	     劉耘碩</p>
 					</div>
 					<div class="copyright">
 						<h3>Follow me</h3>
@@ -111,7 +134,7 @@
 					</div>
 				</div>
 			</footer>
-
+<!--icon fa-facebook-->
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
